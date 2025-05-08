@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.png" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="stylesheet" href="./src/header.css" />
+    <link rel="stylesheet" href="./src/fonts.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <meta name="keywords" content="Разработка сайтов, сайт, одностраничный сайт, базы данных, Telegram bot, create site, single-page site">
+    <meta name="description" content="Портфолио WEB-разработчика Сапронова Ильи. Разработка одностраничных и многостраничных сайтов под ключ">
+
+    <title>Сапронов WEB-разработчик | Sapronov WEB Developer</title>
+  </head>
+  <body>
+    <header>
+        <div class="custom-container">
+          <h3 class="text_logo">
+              Sapronov I Сапронов<br>
+              Создание сайтов
+          </h3>
+          <button class="btn-open-navigation"><i class="fa fa-bars"></i></button>
+          <nav class="close hidden">
+            <div class="nav-items">
+              <button class="btn-close-navigation"><i class="fa fa-times"></i></button>
+              <a href="#about" data-target="#about">О себе</a>
+              <a href="#work" data-target="#work">Мои навыки</a>
+              <a href="#example" data-target="#example">Мои работы</a>
+            </div>
+          </nav>
+        </div>
+    </header>
+    <main>
+      <div id="photo">
+        <div class="custom-container">
+          <img src="/images/avatar.jpg" alt="">
+        </div>
+      </div>
+      <div id="about">
+        <div class="custom-container">
+          <h2>Приветствую,<br> меня зовут Илья!</h2>
+          <div class="cards-list">
+            <div class="custom-card">
+              <div class="icon">
+                <i class="fa fa-place-of-worship"></i>
+              </div>
+              <div class="description">
+                <h3>Проживаю в Санкт-Петербурге</h3>
+              </div>
+            </div>
+            <div class="custom-card">
+              <div class="icon">
+                <i class="fas fa-user"></i>
+              </div>
+              <div class="description">
+                <h3>Являюсь<br>WEB-разработчиком</h3>
+              </div>
+            </div>
+            <div class="custom-card">
+              <div class="icon">
+                <i class="fas fa-briefcase"></i>
+              </div>
+              <div class="description">
+                <h3>Опыт работы 5 лет</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="work">
+        <div class="custom-container">
+          <h2>
+            Мои навыки
+          </h2>
+          <div class="cards-list">
+            <div class="custom-card">
+              <div class="icon">
+                <i class="fa-regular fa-window-maximize"></i>
+              </div>
+              <div class="description">
+                <h3>Разработка сайтов</h3>
+              </div>
+            </div>
+            <div class="custom-card">
+              <div class="icon">
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <div class="description">
+                <h3>Разработка баз данных</h3>
+              </div>
+            </div>
+            <div class="custom-card">
+              <div class="icon">
+                <i class="fa-brands fa-telegram"></i>
+              </div>
+              <div class="description">
+                <h3>Создание Telegram-ботов</h3>
+              </div>
+            </div>
+            <div class="custom-card">
+              <div class="icon">
+                <i class="fa-brands fa-vk"></i>
+              </div>
+              <div class="description">
+                <h3>Работа c сообществами</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="example">
+        <div class="custom-container">
+          <h2>Мои работы</h2>
+          <div id="example-carousel" class="carousel slide">
+            <div class="carousel-indicators">
+              <button data-bs-target="#example-carousel" data-bs-slide-to="0" aria-label="Simple page" class="active"></button>
+              <button data-bs-target="#example-carousel" data-bs-slide-to="1" aria-label="Eat app"></button>
+              <button data-bs-target="#example-carousel" data-bs-slide-to="2" aria-label="Pages with navbar"></button>
+              <button data-bs-target="#example-carousel" data-bs-slide-to="3" aria-label="Professional sections"></button>
+            </div>
+            <div class="carousel-inner active" >
+              <div class="carousel-item active">
+                <img src="/images/examples/simple-page.png" alt="Simple page" class="d-block w-100"/>
+                <div class="carousel-caption">
+                  <h5>Сайт визитка</h5>
+                  <p>Простой сайт для ознакомления с предложениями</p>
+                  <p><a href="https://sprada-rus.github.io/CodeWell_Dev_Portfolio/" target="_blank">Перейти <i class="fa-solid fa-arrow-up-from-bracket"></i></a></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/images/examples/eat-page.png" alt="Eat app" class="d-block w-100"/>
+                <div class="carousel-caption">
+                  <h5>Шаблон web-приложения</h5>
+                  <p>Сайт является наброском для приложения</p>
+                  <p><a href="https://sprada-rus.github.io/practic_uber_eats/" target="_blank">Перейти <i class="fa-solid fa-arrow-up-from-bracket"></i></a></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/images/examples/nav-bar-page.png" alt="Pages with navbar" class="d-block w-100"/>
+                <div class="carousel-caption">
+                  <h5>Сайт с интерактивным меню</h5>
+                  <p>В заголовке сайта установлено интерактивное меню</p>
+                  <p><a href="https://sprada-rus.github.io/CodeWell_JS30_Navbar/" target="_blank">Перейти <i class="fa-solid fa-arrow-up-from-bracket"></i></a></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/images/examples/prof-section.png" alt="Professional sections" class="d-block w-100"/>
+                <div class="carousel-caption">
+                  <h5>Шаблон отзывов</h5>
+                  <p>На этом сайте отображен формат отзывов</p>
+                  <p><a href="https://sprada-rus.github.io/CodeWell_JS30_Navbar/" target="_blank">Перейти <i class="fa-solid fa-arrow-up-from-bracket"></i></a></p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#example-carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#example-carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="contacts">
+        <div class="custom-container">
+          <h2>Контакты для связи</h2>
+          <div class="contacts-list">
+            <div class="contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:ilya.a.sapronov@gmail.com">Почта</a>
+            </div>
+            <div class="contact-item">
+              <i class="fa-brands fa-telegram"></i>
+              <a href="https://t.me/sprada" target="_blank">Telegram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
