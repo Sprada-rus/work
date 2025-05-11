@@ -29,6 +29,5 @@ const resizeHandler = () => {
 
 new Carousel('#example-carousel');
 
-
 window.addEventListener('resize', resizeHandler)
 resizeHandler();

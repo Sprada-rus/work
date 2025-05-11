@@ -51,12 +51,17 @@ header nav.close .nav-items {
 }
 
 @media (min-width: 1024px) {
+    header > .custom-container {
+        gap: 4rem;
+    }
+
     header .nav-items {
         background-color: unset;
         flex-direction: row;
         margin: 0 auto;
         width: 100%;
         justify-content: space-between;
+        padding: 0;
     }
 
     header nav.close .nav-items {

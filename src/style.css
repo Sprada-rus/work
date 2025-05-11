@@ -113,6 +113,10 @@ button:focus-visible {
   background-color: var(--second-bg-color);
 }
 
+#about .custom-container {
+  position: relative;
+}
+
 #about h2 {
   margin: 3rem 0 0;
   text-align: center;
